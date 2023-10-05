@@ -52,7 +52,7 @@ const Navbar = () => {
           <ul className="md:flex lg:items-start lg:justify-start space-x-12 hidden 2xl:ml-[-607px]">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.path} offset={-100} className="block text-base hover:text-[#9A7AF1] text-[#010851] first:font-medium">
+                <a href={item.path} className="block text-base hover:text-[#9A7AF1] text-[#010851] first:font-medium">
                   {item.link}
                 </a>
               </li>
@@ -85,7 +85,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={`bg-[#9A7AF1] mt-16 py-7 px-4 space-y-4 ${isMenuOpen ? 'block fixed top-0 left-0 right-0' : 'hidden'}`}>
           {navItems.map((item, index) => (
-            <a key={index} href={item.path} offset={-100} className="block text-base text-[#010851] hover:text-green first:font-medium">
+            <a key={index} href={item.path}  className="block text-base text-[#010851] hover:text-green first:font-medium">
               {item.link}
             </a>
           ))}
