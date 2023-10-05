@@ -1,5 +1,5 @@
 import Container from "./Container"
-import share from '../assets/Share2.png'
+import share from '../assets/share2.png'
 const Share = () => {
   return (
     <div>
