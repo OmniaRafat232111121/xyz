@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Counter from './components/Counter';
 import Features from './components/Features';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -19,6 +20,7 @@ function App() {
    <Pricing/>
    <Share/>
    <Footer/>
+  
    </>
   )
 }
